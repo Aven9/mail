@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  mail
+//
+//  Created by 杨杨杨 on 2017/9/15.
+//  Copyright © 2017年 杨杨杨. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//如果是oc文件
+#ifdef __OBJC__
+
+
+// 自定义颜色 透明度
+#define YYYColorWithAlpha(r, g, b, a) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
+// 自定义颜色
+#define YYYColor(r, g, b) YYYColorWithAlpha(r,g,b,1)
+// 随机色 透明度
+#define YYYRandomColorWithAlpha(a) [UIColor colorWithRed:arc4random_uniform(256) / 255.0 green:arc4random_uniform(256) / 255.0 blue:arc4random_uniform(256) / 255.0 alpha:(a)]
+// 随机色
+#define YYYRandomColor YYYRandomColorWithAlpha(1)
+//信封颜色
+#define MailColor YYYColor(15, 108, 108)
+typedef void (^YYYVoidBlock)(void);
+
+//对于NSLog的自定义
+#ifdef DEBUG
+#define NSLog(FORMAT,...) \
+fprintf(stderr,"%s : %d\t%s\n",\
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],\
+__LINE__,\
+[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else
+#define NSLog(...)
+#endif
+
+#endif /* __OBJC__ */
+#endif /* PrefixHeader_pch */

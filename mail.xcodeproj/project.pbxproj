@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF99842335293C4FEFD49B3 /* libPods-mail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6404FA0F77CE457C2C4DBDD4 /* libPods-mail.a */; };
+		422655C01F7DED510017D2CD /* YYYLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422655BF1F7DED510017D2CD /* YYYLetterView.m */; };
+		422655C21F7DED6A0017D2CD /* LetterPaper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422655C11F7DED6A0017D2CD /* LetterPaper.xib */; };
+		F22639BF1F6B957400F6195A /* YYYMail.m in Sources */ = {isa = PBXBuildFile; fileRef = F22639BE1F6B957400F6195A /* YYYMail.m */; };
+		F22639C31F6B98A600F6195A /* YYYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F22639C21F6B98A600F6195A /* YYYUser.m */; };
+		F22639C71F6B98FB00F6195A /* YYYMailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F22639C61F6B98FB00F6195A /* YYYMailManager.m */; };
+		F27792811F7F46D50095AC17 /* YYYMiddelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27792801F7F46D50095AC17 /* YYYMiddelController.m */; };
+		F2AB514B1F7B452500DD2C0C /* YYYMailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AB514A1F7B452500DD2C0C /* YYYMailView.m */; };
+		F2AB514E1F7B4E6900DD2C0C /* YYYMailTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AB514D1F7B4E6900DD2C0C /* YYYMailTopView.m */; };
+		F2AB51541F7B5DBE00DD2C0C /* YYYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AB51531F7B5DBE00DD2C0C /* YYYViewController.m */; };
+		F2F66BF81F7B9E24007493F7 /* YYYMailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F66BF71F7B9E24007493F7 /* YYYMailController.m */; };
+		F2F66C151F7BD854007493F7 /* YYYShelfController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F66C141F7BD854007493F7 /* YYYShelfController.m */; };
+		F2F66C171F7BD975007493F7 /* ShelfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F66C161F7BD975007493F7 /* ShelfCell.xib */; };
+		F2F66C1A1F7BDA69007493F7 /* YYYShelfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F66C191F7BDA69007493F7 /* YYYShelfCell.m */; };
+		F2FF1ECA1F6B942400085721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF1EC91F6B942400085721 /* main.m */; };
+		F2FF1ECD1F6B942400085721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF1ECC1F6B942400085721 /* AppDelegate.m */; };
+		F2FF1ED31F6B942400085721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FF1ED11F6B942400085721 /* Main.storyboard */; };
+		F2FF1ED51F6B942400085721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FF1ED41F6B942400085721 /* Assets.xcassets */; };
+		F2FF1ED81F6B942400085721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FF1ED61F6B942400085721 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		422655BE1F7DED510017D2CD /* YYYLetterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYLetterView.h; sourceTree = "<group>"; };
+		422655BF1F7DED510017D2CD /* YYYLetterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYLetterView.m; sourceTree = "<group>"; };
+		422655C11F7DED6A0017D2CD /* LetterPaper.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetterPaper.xib; sourceTree = "<group>"; };
+		6404FA0F77CE457C2C4DBDD4 /* libPods-mail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD1EDCCCB30C2A261E5D449 /* Pods-mail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mail.release.xcconfig"; path = "Pods/Target Support Files/Pods-mail/Pods-mail.release.xcconfig"; sourceTree = "<group>"; };
+		7518A8D67797E15A6DC3867F /* Pods-mail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mail/Pods-mail.debug.xcconfig"; sourceTree = "<group>"; };
+		F22639B91F6B94FA00F6195A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F22639BD1F6B957400F6195A /* YYYMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYYMail.h; sourceTree = "<group>"; };
+		F22639BE1F6B957400F6195A /* YYYMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYYMail.m; sourceTree = "<group>"; };
+		F22639C11F6B98A600F6195A /* YYYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYYUser.h; sourceTree = "<group>"; };
+		F22639C21F6B98A600F6195A /* YYYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYYUser.m; sourceTree = "<group>"; };
+		F22639C51F6B98FB00F6195A /* YYYMailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYYMailManager.h; sourceTree = "<group>"; };
+		F22639C61F6B98FB00F6195A /* YYYMailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYYMailManager.m; sourceTree = "<group>"; };
+		F277927F1F7F46D50095AC17 /* YYYMiddelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYMiddelController.h; sourceTree = "<group>"; };
+		F27792801F7F46D50095AC17 /* YYYMiddelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYMiddelController.m; sourceTree = "<group>"; };
+		F2AB51491F7B452500DD2C0C /* YYYMailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYMailView.h; sourceTree = "<group>"; };
+		F2AB514A1F7B452500DD2C0C /* YYYMailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYMailView.m; sourceTree = "<group>"; };
+		F2AB514C1F7B4E6900DD2C0C /* YYYMailTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYMailTopView.h; sourceTree = "<group>"; };
+		F2AB514D1F7B4E6900DD2C0C /* YYYMailTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYMailTopView.m; sourceTree = "<group>"; };
+		F2AB51521F7B5DBE00DD2C0C /* YYYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYViewController.h; sourceTree = "<group>"; };
+		F2AB51531F7B5DBE00DD2C0C /* YYYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYViewController.m; sourceTree = "<group>"; };
+		F2F66BF61F7B9E24007493F7 /* YYYMailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYMailController.h; sourceTree = "<group>"; };
+		F2F66BF71F7B9E24007493F7 /* YYYMailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYMailController.m; sourceTree = "<group>"; };
+		F2F66C131F7BD854007493F7 /* YYYShelfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYShelfController.h; sourceTree = "<group>"; };
+		F2F66C141F7BD854007493F7 /* YYYShelfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYShelfController.m; sourceTree = "<group>"; };
+		F2F66C161F7BD975007493F7 /* ShelfCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShelfCell.xib; sourceTree = "<group>"; };
+		F2F66C181F7BDA69007493F7 /* YYYShelfCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYYShelfCell.h; sourceTree = "<group>"; };
+		F2F66C191F7BDA69007493F7 /* YYYShelfCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYShelfCell.m; sourceTree = "<group>"; };
+		F2FF1EC51F6B942400085721 /* mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FF1EC91F6B942400085721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2FF1ECB1F6B942400085721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2FF1ECC1F6B942400085721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2FF1ED21F6B942400085721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2FF1ED41F6B942400085721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FF1ED71F6B942400085721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2FF1ED91F6B942400085721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2FF1EC21F6B942400085721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF99842335293C4FEFD49B3 /* libPods-mail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66838FFB88244A73C52B9304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7518A8D67797E15A6DC3867F /* Pods-mail.debug.xcconfig */,
+				6FD1EDCCCB30C2A261E5D449 /* Pods-mail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB6B830AA61A011CF5810075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6404FA0F77CE457C2C4DBDD4 /* libPods-mail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22639BA1F6B955500F6195A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F22639C41F6B98E900F6195A /* manager */,
+				F22639C01F6B989200F6195A /* User */,
+				F22639BB1F6B955B00F6195A /* mail */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		F22639BB1F6B955B00F6195A /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				F22639BD1F6B957400F6195A /* YYYMail.h */,
+				F22639BE1F6B957400F6195A /* YYYMail.m */,
+			);
+			name = mail;
+			sourceTree = "<group>";
+		};
+		F22639C01F6B989200F6195A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F22639C11F6B98A600F6195A /* YYYUser.h */,
+				F22639C21F6B98A600F6195A /* YYYUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		F22639C41F6B98E900F6195A /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				F22639C51F6B98FB00F6195A /* YYYMailManager.h */,
+				F22639C61F6B98FB00F6195A /* YYYMailManager.m */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		F27792771F7E37670095AC17 /* 信 */ = {
+			isa = PBXGroup;
+			children = (
+				422655C11F7DED6A0017D2CD /* LetterPaper.xib */,
+				F2AB514C1F7B4E6900DD2C0C /* YYYMailTopView.h */,
+				F2AB514D1F7B4E6900DD2C0C /* YYYMailTopView.m */,
+				F2AB51491F7B452500DD2C0C /* YYYMailView.h */,
+				F2AB514A1F7B452500DD2C0C /* YYYMailView.m */,
+				422655BE1F7DED510017D2CD /* YYYLetterView.h */,
+				422655BF1F7DED510017D2CD /* YYYLetterView.m */,
+			);
+			name = "信";
+			sourceTree = "<group>";
+		};
+		F2AB514F1F7B5D8D00DD2C0C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF1ED11F6B942400085721 /* Main.storyboard */,
+				F27792771F7E37670095AC17 /* 信 */,
+				F2F66C161F7BD975007493F7 /* ShelfCell.xib */,
+				F2F66C181F7BDA69007493F7 /* YYYShelfCell.h */,
+				F2F66C191F7BDA69007493F7 /* YYYShelfCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		F2AB51511F7B5DA100DD2C0C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2AB51521F7B5DBE00DD2C0C /* YYYViewController.h */,
+				F2AB51531F7B5DBE00DD2C0C /* YYYViewController.m */,
+				F2F66BF61F7B9E24007493F7 /* YYYMailController.h */,
+				F2F66BF71F7B9E24007493F7 /* YYYMailController.m */,
+				F277927F1F7F46D50095AC17 /* YYYMiddelController.h */,
+				F27792801F7F46D50095AC17 /* YYYMiddelController.m */,
+				F2F66C131F7BD854007493F7 /* YYYShelfController.h */,
+				F2F66C141F7BD854007493F7 /* YYYShelfController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		F2F66C0C1F7BD0B0007493F7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF1ECB1F6B942400085721 /* AppDelegate.h */,
+				F2FF1ECC1F6B942400085721 /* AppDelegate.m */,
+				F22639B91F6B94FA00F6195A /* PrefixHeader.pch */,
+				F2FF1ED41F6B942400085721 /* Assets.xcassets */,
+				F2FF1ED61F6B942400085721 /* LaunchScreen.storyboard */,
+				F2FF1ED91F6B942400085721 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F2FF1EBC1F6B942400085721 = {
+			isa = PBXGroup;
+			children = (
+				F2FF1EC71F6B942400085721 /* mail */,
+				F2FF1EC61F6B942400085721 /* Products */,
+				66838FFB88244A73C52B9304 /* Pods */,
+				EB6B830AA61A011CF5810075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FF1EC61F6B942400085721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF1EC51F6B942400085721 /* mail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2FF1EC71F6B942400085721 /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				F2F66C0C1F7BD0B0007493F7 /* Other */,
+				F2AB51511F7B5DA100DD2C0C /* controller */,
+				F2AB514F1F7B5D8D00DD2C0C /* view */,
+				F22639BA1F6B955500F6195A /* model */,
+				F2FF1EC81F6B942400085721 /* Supporting Files */,
+			);
+			path = mail;
+			sourceTree = "<group>";
+		};
+		F2FF1EC81F6B942400085721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF1EC91F6B942400085721 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2FF1EC41F6B942400085721 /* mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FF1EDC1F6B942400085721 /* Build configuration list for PBXNativeTarget "mail" */;
+			buildPhases = (
+				25BB294C1D7BACF229F5D0C3 /* [CP] Check Pods Manifest.lock */,
+				F2FF1EC11F6B942400085721 /* Sources */,
+				F2FF1EC21F6B942400085721 /* Frameworks */,
+				F2FF1EC31F6B942400085721 /* Resources */,
+				BB133E4195158A473274FF05 /* [CP] Embed Pods Frameworks */,
+				F756FC98C4D32FCA06D84E65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mail;
+			productName = mail;
+			productReference = F2FF1EC51F6B942400085721 /* mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2FF1EBD1F6B942400085721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YYY;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "杨杨杨";
+				TargetAttributes = {
+					F2FF1EC41F6B942400085721 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FPFL449QLB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2FF1EC01F6B942400085721 /* Build configuration list for PBXProject "mail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2FF1EBC1F6B942400085721;
+			productRefGroup = F2FF1EC61F6B942400085721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FF1EC41F6B942400085721 /* mail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2FF1EC31F6B942400085721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F66C171F7BD975007493F7 /* ShelfCell.xib in Resources */,
+				F2FF1ED81F6B942400085721 /* LaunchScreen.storyboard in Resources */,
+				422655C21F7DED6A0017D2CD /* LetterPaper.xib in Resources */,
+				F2FF1ED51F6B942400085721 /* Assets.xcassets in Resources */,
+				F2FF1ED31F6B942400085721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BB294C1D7BACF229F5D0C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB133E4195158A473274FF05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mail/Pods-mail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F756FC98C4D32FCA06D84E65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mail/Pods-mail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2FF1EC11F6B942400085721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22639C71F6B98FB00F6195A /* YYYMailManager.m in Sources */,
+				F2AB514B1F7B452500DD2C0C /* YYYMailView.m in Sources */,
+				F27792811F7F46D50095AC17 /* YYYMiddelController.m in Sources */,
+				F2AB514E1F7B4E6900DD2C0C /* YYYMailTopView.m in Sources */,
+				F2AB51541F7B5DBE00DD2C0C /* YYYViewController.m in Sources */,
+				F2F66C1A1F7BDA69007493F7 /* YYYShelfCell.m in Sources */,
+				F2F66C151F7BD854007493F7 /* YYYShelfController.m in Sources */,
+				F2F66BF81F7B9E24007493F7 /* YYYMailController.m in Sources */,
+				422655C01F7DED510017D2CD /* YYYLetterView.m in Sources */,
+				F22639C31F6B98A600F6195A /* YYYUser.m in Sources */,
+				F2FF1ECD1F6B942400085721 /* AppDelegate.m in Sources */,
+				F22639BF1F6B957400F6195A /* YYYMail.m in Sources */,
+				F2FF1ECA1F6B942400085721 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2FF1ED11F6B942400085721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FF1ED21F6B942400085721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FF1ED61F6B942400085721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FF1ED71F6B942400085721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2FF1EDA1F6B942400085721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2FF1EDB1F6B942400085721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2FF1EDD1F6B942400085721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7518A8D67797E15A6DC3867F /* Pods-mail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPFL449QLB;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = mail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.mail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2FF1EDE1F6B942400085721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD1EDCCCB30C2A261E5D449 /* Pods-mail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPFL449QLB;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = mail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.mail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2FF1EC01F6B942400085721 /* Build configuration list for PBXProject "mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FF1EDA1F6B942400085721 /* Debug */,
+				F2FF1EDB1F6B942400085721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FF1EDC1F6B942400085721 /* Build configuration list for PBXNativeTarget "mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FF1EDD1F6B942400085721 /* Debug */,
+				F2FF1EDE1F6B942400085721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2FF1EBD1F6B942400085721 /* Project object */;
+}
